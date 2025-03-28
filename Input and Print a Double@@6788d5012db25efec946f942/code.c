@@ -2,8 +2,8 @@
 
 int main() {
     int inp;
-    scanf("%fl", &inp);
-    printf("You entered: %.3fl", inp);
+    scanf("%lf", &inp);
+    printf("You entered: %.3lf", inp);
     return 0;
 }
 
