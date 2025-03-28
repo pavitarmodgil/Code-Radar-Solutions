@@ -1,7 +1,7 @@
 int main() {
-    char inp[10];
+    char inp[100];
     int inp1;
-    char inp2[10];
+    char inp2[100];
     scanf("%s", inp);
     scanf("%d", &inp1);
     scanf("%s", inp2);
