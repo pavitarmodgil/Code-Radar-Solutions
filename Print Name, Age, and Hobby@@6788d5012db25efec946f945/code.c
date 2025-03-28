@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main() {
     char inp[10];
     int inp1;
