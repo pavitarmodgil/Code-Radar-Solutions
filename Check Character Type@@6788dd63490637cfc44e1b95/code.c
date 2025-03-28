@@ -3,7 +3,7 @@
 int main()
 {
     char a;
-    scanf("%c", &c);
+    scanf("%c", &a);
 
     if ((a>=65 && a<= 90) || (a>=97 && a<= 122));
     {
@@ -15,7 +15,7 @@ int main()
         }
     } else if(a>=48 && a<= 57)
     {
-        printf("Digits")
+        printf("Digits");
     } else {
         printf("Special Character");
     }
