@@ -6,8 +6,8 @@ int main() {
     char inp2[10];
     scanf("%s %d %s", inp, &inp1, inp2);
     printf("Name: %s\n", inp);
-    printf("Age: %s\n", inp);
-    printf("Hobby: %s\n", inp);
+    printf("Age: %d\n", inp1);
+    printf("Hobby: %s\n", inp2);
     return 0;
 }
 
