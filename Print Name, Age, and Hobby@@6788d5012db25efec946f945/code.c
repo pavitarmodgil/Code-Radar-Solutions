@@ -1,10 +1,10 @@
 int main() {
-    char inp[100];
+    char inp[10];
     int inp1;
-    char inp2[100];
-    scanf("%s", inp);
+    char inp2[10];
+    scanf("%9s", inp);
     scanf("%d", &inp1);
-    scanf("%s", inp2);
+    scanf("%9s", inp2);
 
     printf("Name: %s", inp);
     printf("Age: %d", inp1);
