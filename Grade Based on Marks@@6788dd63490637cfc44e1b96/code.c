@@ -12,9 +12,9 @@ int main()
     } else if(mark>=70 && mark<80){
         printf("C");
     } else if(mark>=60 && mark<70){
-        printf("D")
+        printf("D");
     } else{
-        printf("F")
+        printf("F");
     }
     return 0;
 }
