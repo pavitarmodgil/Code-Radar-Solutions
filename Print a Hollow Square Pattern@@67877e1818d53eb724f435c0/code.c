@@ -7,24 +7,14 @@ int main()
 
     for(int i=0; i<n; i++)
     {
-        printf("*");
-    }
-    printf("\n");
-    for(int j=0;j<n;j++)
-    {
-        if(j==0)
+        for(int k = 0; k < n ; k++)
         {
+        if(i == 0 || i == n-1 || j==0 || j == n-1) {
             printf("*");
-        } else if(j==n-1) {
-            printf("*\n");
         } else {
             printf(" ");
         }
-
     }
-
-    for(int k = 0; k < n ; k++)
-    {
-        printf("*");
-    }
+}
+    return 0;
 }
