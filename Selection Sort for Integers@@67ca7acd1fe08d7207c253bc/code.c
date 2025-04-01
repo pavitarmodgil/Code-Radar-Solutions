@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void selectionSort(arr, n) {
     for(int i=0;i<n-1;i++) {
         m = i;
