@@ -30,17 +30,4 @@ void printArray(int arr[], int n) {
     printf("\n"); // New line at the end
 }
 
-int main() {
-    int n;
-    scanf("%d", &n);
-    int arr[n]; // Variable length array (C99+)
 
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-
-    bubbleSort(arr, n);
-    printArray(arr, n);
-
-    return 0;
-}
