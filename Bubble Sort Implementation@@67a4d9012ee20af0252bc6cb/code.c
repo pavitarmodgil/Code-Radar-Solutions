@@ -6,7 +6,7 @@ void bubbleSort(int arr[],int n) {
     int swapped = 0;
 
     for(int j=0;j<n-1;j++) {
-        if[arr[j] > arr[j+1]] {
+        if(arr[j] > arr[j+1]) {
             temp = arr[j];
             arr[i] = arr[j];
             arr[j+1] = arr[j];
